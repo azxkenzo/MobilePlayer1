@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.v7.preference.Preference
+            android:key="clear_cache"
+            android:title="清除缓存"/>
+
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="push"
+            android:title="推送通知"
+            android:defaultValue="true"/>
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="no_wifi"
+            android:title="非wifi下加载图片"
+            android:defaultValue="true"/>
+
+
+    <android.support.v7.preference.Preference
+            android:key="about"
+            android:title="关于"/>
+
+
+</android.support.v7.preference.PreferenceScreen>
